@@ -1,0 +1,46 @@
+.accept-invitation-support {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* for IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* for Safari */
+
+  width: 360px;
+  height: 192px; 
+  border-radius: 16px;
+  box-shadow: 5px 8px 24px 5px rgba(208, 216, 243, 0.6);
+
+
+  .btn__accept--invitation {
+    position:absolute;
+    margin: 10px;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    padding: 9px 25px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    background: #f28e1d;
+    border: 1px solid #f28e1d;
+    &:hover {
+      background: #de8017;
+      border: 1px solid #de8017;
+      color: #fff;
+    }
+  }
+}
+
+.empty {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* for IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* for Safari */
+}

@@ -1,0 +1,36 @@
+.cards-container {
+  .card-item-container {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    .card-image {
+      width: 100%;
+      height: 90%;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+    .card-number {
+      display: flex;
+      align-items: center;
+      .dots {
+        margin-top: 4px;
+        align-items: center;
+        font-weight: bold;
+        margin-right: 4px;
+      }
+    }
+  }
+  .card-item-container.selected {
+    border: 1px solid #3ea4f7;
+  }
+  .payment-button {
+    width: 100%;
+    display: block;
+    button {
+      width: 100%;
+      display: block;
+    }
+  }
+}

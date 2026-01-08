@@ -1,0 +1,30 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    overflow: scroll;
+}
+
+.button__listing {
+    margin-bottom: 20px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin-bottom: 10px;
+        .btn__selectable {
+          border: 1px solid #4584f1;
+          background: #fff;
+          color: #333;
+          border-radius: 4px;
+          font-size: 14px;
+          font-weight: 500;
+          margin-right: 15px;
+          padding: 10px 25px;
+        }
+        .btn__selectable--active {
+          background: #4584f1 !important;
+          color: #fff !important;
+        }
+      }
+    }
+  }

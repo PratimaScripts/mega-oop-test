@@ -1,0 +1,49 @@
+.fileDropper {
+  width: 100%;
+  min-height: 120px;
+  background-color: #a8a8a8;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+.imageChooserText {
+  text-align: center;
+  color: white;
+}
+.upload-image__container {
+  background-color: rgb(64, 169, 255);
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  justify-content: center;
+  color: white;
+  height: 40px;
+  span {
+    margin-right: 10px;
+  }
+}
+#imageperviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image___container {
+  position: relative;
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    object-fit: cover;
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+  }
+}

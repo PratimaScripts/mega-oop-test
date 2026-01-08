@@ -1,0 +1,31 @@
+const ServiceProBreadCrums = {
+    "/servicepro": "Home",
+    "/servicepro/dashboard": "Home",
+    "/servicepro/settings": "Settings",
+    "/servicepro/settings/info": "Profile Info",
+    "/servicepro/settings/social-connect": "Social Connect",
+    "/servicepro/settings/payment-method": "Payment Method",
+    "/servicepro/settings/persona": "Persona Profile",
+    "/servicepro/settings/accountsetting": "Account Setting",
+    "/servicepro/settings/privacy": "Privacy",
+    "/servicepro/screening": "Screening",
+    "/servicepro/settings/security": "Security",
+    "/servicepro/settings/subscriptions": "Subscriptions",
+    "/servicepro/settings/notifications": "Notifications",
+    "/servicepro/settings/userRole": "User Role",
+    "/servicepro/screening/review": "Review",
+    "/servicepro/contacts": "My Clients",
+    "/servicepro/findit": "Find It",
+    "/servicepro/fixit": "Fix It",
+    "/servicepro/fixit/tasks": "Tasks",
+    "/servicepro/calendar": "Calendar",
+    "/servicepro/messenger": "Messenger",
+    "/servicepro/fixit/task": "Task",
+    "/servicepro/fixit/task/offers": "View",
+    "/servicepro/fixit/task/:id": "{{id}}",
+    "/servicepro/myservices": "My Services",
+    "/servicepro/mymoney": "My Money",
+    "/servicepro/myservices/new": "New Service"
+};
+
+export default ServiceProBreadCrums;

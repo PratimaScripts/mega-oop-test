@@ -1,0 +1,165 @@
+.active-connect-tab {
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .top_panel {
+    background: #2189ff;
+    padding-bottom: 30px;
+    color: #fff;
+    border-color: #2189ff;
+    border-radius: 5px;
+    .card-body {
+      padding: 15px;
+      .profile_avator {
+        position: relative;
+        border: 1px solid #fff;
+        width: 102px;
+        height: 102px;
+        margin: 0 auto 15px;
+        border-radius: 50%;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto 15px;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        .status {
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          top: 12px;
+          color: #62d803;
+          right: -6px;
+          background: #fff;
+          border-radius: 50%;
+          i {
+            color: #62d803;
+            font-size: 15px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+    .name {
+      font-size: 16px;
+      margin: 5px 0 0;
+      a {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5px;
+        i {
+          display: inline-block;
+          color: #fff;
+          background: #f28e1d;
+          font-size: 9px;
+          width: 19px;
+          height: 19px;
+          text-align: center;
+          border-radius: 100%;
+          vertical-align: top;
+          line-height: 19px;
+        }
+      }
+    }
+    .address,
+    .reference {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    .reference span {
+      display: inline-block;
+      color: #fff;
+      background: #f28e1d;
+      font-size: 9px;
+      width: 19px;
+      height: 19px;
+      text-align: center;
+      border-radius: 100%;
+      vertical-align: top;
+      line-height: 19px;
+    }
+  }
+  .bottom_panel {
+    background: #f3f3f3;
+    padding: 15px 15px 0;
+    border-radius: 5px;
+    .short_card {
+      position: relative;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 3px 2px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      background: #fff;
+      padding: 15px 10px 0;
+      margin: 0 1px 20px;
+    }
+    .custom {
+      margin-top: -50px;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    clear: both;
+  }
+  li {
+    color: #888;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 1% 15px;
+    display: inline-block;
+    width: 46%;
+    span {
+      color: #888;
+      width: 18px;
+      height: 20px;
+      font-size: 18px;
+      margin-right: 3px;
+      border: 1px solid #888;
+      text-align: center;
+      padding: 0 4px;
+      border-radius: 3px;
+    }
+  }
+  .verified {
+    color: #5ea637 !important;
+    border-color: #5ea637 !important;
+  }
+
+  .verified span {
+    color: #5ea637 !important;
+    border-color: #5ea637 !important;
+  }
+  .short_foot {
+    color: #555;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 15px;
+    img {
+      width: 40px;
+      height: auto;
+    }
+  }
+  .progress_hover {
+    cursor: pointer;
+  }
+}
+
+.ant-progress-text {
+  color: #fff !important;
+}
+
+.profile-completeness:hover {
+  cursor: pointer;
+}
+
+.profile-completeness .ant-progress-text {
+  width: fit-content !important;
+}

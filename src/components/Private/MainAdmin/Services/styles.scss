@@ -1,0 +1,16 @@
+.services-table {
+  .tag{
+    background-color: #f8f8f8;
+    padding: 2px 5px;
+    border-radius: 2px;
+  }
+  .expandable-row {
+    .variant, .description {
+      margin-left: 20px;
+    }
+  }
+  .date-pickers {
+    margin-bottom: 10px;
+    text-align: right;
+  }
+}

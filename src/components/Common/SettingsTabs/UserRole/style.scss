@@ -1,0 +1,203 @@
+.cardinput {
+  height: 42px !important;
+  margin-right: 15px;
+}
+.no__padd {
+  padding: 0 !important;
+  
+}
+.no_top_bottom_pad {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.admin__orange {
+  color: #f28e1d !important;
+}
+.admin__blue {
+  color: #00f !important;
+}
+.details__icons {
+  top: 15px;
+  right: 10px;
+  position: absolute;
+}
+.role {
+  .box-form-wrapper {
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    // box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    h3 {
+      font-size: 20px;
+    }
+    h4 {
+      margin-bottom: 5px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .admin {
+      color: #f28e1d;
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    .email {
+      color: #00f;
+      margin-bottom: 2px;
+      font-size: 14px;
+    }
+    .d-flex {
+      .details {
+        // width: calc(100% - 94px);
+        width: 100%;
+        margin-left:10px;
+        h4 {
+          font-weight: 400;
+          font-size: 18px;
+          color: #333;
+          margin-bottom: 15px;
+        }
+        span {
+          font-size: 14px;
+          color: #777;
+        }
+        label {
+          margin-bottom: 5px;
+          color: #333;
+          font-weight: 500;
+        }
+      }
+      .details__icons {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        vertical-align: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #999;
+        i {
+          &::before {
+            font-weight: 600;
+            color: #fff;
+            font-size: 16px;
+          }
+        }
+      }
+      .active {
+        background: #f28e1d !important;
+      }
+    }
+  }
+  img {
+    margin-right: 15px;
+    max-width: 65px !important;
+    max-height: 65px !important;
+  }
+  .text_head {
+    font-weight: 400;
+  }
+  .content_wrap {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid transparent;
+    .d-flex {
+      position: relative;
+      border-radius: 5px;
+      background: #fff;
+      width: 100%;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+      padding: 15px;
+    }
+    .details {
+      span {
+        font-size: 14px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+        font-weight: 500;
+      }
+    }
+  }
+  .wrapper_table {
+    .d-flex {
+      padding: 15px;
+      input {
+        font-size: 15px;
+        padding: 9px 12px 10px;
+        margin-bottom: 20px;
+        &:focus {
+          border-color: #f28e1d;
+          box-shadow: none;
+        }
+      }
+      .btn-warning {
+        // color: #fff !important;
+        // background-color: #f28e1d !important;
+        // border-color: #f28e1d !important;
+        // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+        transition: all 0.2s;
+        // padding: 9px 15px 10px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .main__topbar {
+    .menuIcon {
+      outline: none !important;
+      padding-left: 5px !important;
+    }
+  }
+  .role {
+    .box-form-wrapper {
+      padding: 0;
+        .card-header {
+          padding: 12px;
+        }
+        img {
+          margin-right: 5px;
+          max-width: 24px !important;
+          max-height: 24px !important;
+        }
+        // .details {
+        //   width: 100% !important;
+        // }
+      }
+    }
+  }
+  @media screen and (max-width:767px){
+    // .box-form-wrapper{
+    //   .d-flex{
+    //     display: block !important;
+    //     .details{
+    //       width: 100% !important;
+    //       margin-top: 20px;
+    //     }
+    //   }
+    // }
+    .ant-table-thead > tr > th{
+      min-width: 130px;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    // .box-form-wrapper{
+    //   .d-flex{
+    //     display: block !important;
+    //     .details{
+    //       width: 100% !important;
+    //       margin-top: 20px;
+    //     }
+    //   }
+    // }
+  }
+  

@@ -1,0 +1,57 @@
+.table-with-row-spacing {
+  .ant-table {
+    background: transparent;
+  }
+
+  .ant-table-selection-column {
+    padding-right: 0px !important;
+  }
+
+  th.ant-table-selection-column {
+    padding-left: 20px !important;
+  }
+
+  table {
+    background: transparent;
+    border-spacing: 0 10px;
+
+    thead tr:first-child {
+      box-shadow: 0 0 10px #d4d4d4;
+    }
+
+    tr {
+      background: #fff;
+      box-shadow: 0 0 10px #d4d4d4;
+    }
+
+    tr th:first-child {
+      border-left: 4px solid #ddf0ff;
+    }
+
+    .yellow td:first-child {
+      border-left: 4px solid yellow;
+    }
+    .green td:first-child {
+      border-left: 4px solid green;
+    }
+    .grey td:first-child {
+      border-left: 4px solid grey;
+    }
+
+    tr td:first-child,
+    tr td:last-child {
+      border-radius: 5px;
+    }
+
+    tr td {
+      padding: 20px 20px;
+      vertical-align: middle;
+      color: #333 !important;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #ddf0ff !important;
+    }
+  }
+}

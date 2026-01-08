@@ -1,0 +1,34 @@
+.checkout-modal-container {
+  .pay-now_button > button {
+    width: 100%;
+    display: block;
+  }
+  
+  .ccsvinput,
+  .czipinput,
+  .cexpinput,
+  .card-number-input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum", "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 6px 11px !important;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  .note {
+    font-size: 12px;
+  }
+}

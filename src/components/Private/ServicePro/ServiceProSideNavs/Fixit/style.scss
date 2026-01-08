@@ -1,0 +1,22 @@
+.isInActive {
+  color: #00000063;
+}
+
+.taskListingServicePro .react-tabs__tab-list li {
+  width: 25% !important;
+}
+
+.screening__tables .table-responsive .thead-dark th {
+  min-width: 130px;
+}
+.screening__tables .table-responsive .thead-dark .last_th_value {
+  min-width: auto;
+}
+
+tr{
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.01);   
+    transition: transform .2s;
+  }
+}

@@ -1,0 +1,131 @@
+.flex__middle {
+  align-items: center;
+  &:hover {
+    .details {
+      width: calc(100% - 54px);
+      .btns {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        input {
+          font-size: 12px;
+          margin: 0 2px;
+        }
+      }
+    }
+  }
+
+  .details {
+    .btns {
+      display: none;
+    }
+  }
+
+  h4 {
+    font-size: 14px;
+    margin: 0;
+    color: #777;
+  }
+}
+.connect_page {
+  .main_header {
+    h3 {
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+  .notify_settings {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px;
+    .fab {
+      border-radius: 100%;
+      width: 49px;
+      height: 49px;
+      color: #fff;
+      line-height: 49px;
+      font-size: 24px;
+      margin: 0 5px 0 0;
+      text-align: center;
+    }
+    .fa-facebook-f {
+      background: #3b5999;
+    }
+    .fa-linkedin-in {
+      background: #1a82b9;
+    }
+    .fa-twitter {
+      background: #7ccbfe;
+    }
+    .fa-telegram-plane {
+      background: #35ade1;
+    }
+  }
+  .details {
+    width: calc(100% - 51px);
+    .fa-check-circle {
+      color: #5ea637;
+    }
+    .btns {
+      text-align: right;
+      .btn {
+        padding: 2px 6px;
+        min-height: 20px;
+        transition: all 0.2s;
+      }
+    }
+    input {
+      &:focus {
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+  }
+  .form-group {
+    input {
+      &:focus {
+        border-color: #f28e1d;
+        box-shadow: none;
+        outline: 0;
+      }
+    }
+  }
+}
+
+// desktop responsive open
+.roc__desktop--responsive {
+  .connect_page {
+    .row {
+      .col-md-6 {
+        max-width: 100%;
+        flex: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .roc__desktop--responsive {
+    .connect_page {
+      .row {
+        .col-md-6 {
+          max-width: 100%;
+          flex: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 980px) {
+  .roc__desktop--responsive {
+    .react-tabs__tab-list {
+      li {
+        width: 100% !important;
+      }
+    }
+  }
+}
+// desktop responsive close

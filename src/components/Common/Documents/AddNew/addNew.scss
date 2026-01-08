@@ -1,0 +1,127 @@
+.addContainerOne {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-top: 1%;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.addContainerTwo {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-family: 'Roboto', sans-serif !important;
+  .bg-custom{
+    background-color: #fdfbf1;
+  }
+}
+
+.inContainer {
+  padding: 2% 2% 1% 2%;
+}
+
+.infoLi {
+  margin-left: 2%;
+  font-weight: 300;
+}
+
+.ant-progress-bg {
+  height: 25px !important;
+}
+
+.ant-progress-outer,
+.ant-progress-bg {
+  border-radius: 5px !important;
+}
+.ant-progress-inner {
+  border-radius: 5px !important;
+  background-color: #e1e1e1;
+}
+
+.infoP1 {
+  margin-bottom: 1%;
+  font-weight: 500;
+}
+
+.infoheading {
+  margin-top: 1.5%;
+  font-weight: 200;
+}
+
+.infoP2 {
+  margin-bottom: 0%;
+  font-weight: 300;
+}
+
+.infoP3 {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-weight: 500;
+}
+
+hr {
+  margin-top: 8;
+}
+
+.inputField {
+  width: 100%;
+}
+
+h6 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.description {
+  height: 50px;
+}
+
+.ant-col {
+  padding-right: 20px;
+}
+
+.docUpload {
+  font-size: 15px;
+  background: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 5px 8px 0px 5px;
+  height: 35px;
+}
+
+.fileUploadIcon {
+  color: grey;
+  padding-right: 5px;
+  font-size: 18px;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 2px !important
+  
+}
+
+.fileUploadText {
+  font-size: 15px;
+  padding-top: 3%;
+  padding-left: 3%;
+  color: #1a90ff;
+}
+
+.attachment {
+  padding-right: 6px;
+}
+
+.delete {
+  padding-left: 50px;
+  color: red;
+}
+
+.formUpload {
+  margin-top: 2%;
+}
+
+.docSubmit {
+  margin-left: 2%;
+  width: 100px;
+  height: 45px;
+  font-size: 18px;
+}

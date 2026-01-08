@@ -1,0 +1,28 @@
+
+#react-autowhatever-1 ul {
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+#react-autowhatever-1{
+    position: absolute;
+    background: #fff;
+    z-index: 9;
+    box-shadow: 0 4px 25px 0 #bbb;
+}
+
+#react-autowhatever-1 ul li {
+    list-style-type: none;
+    font-family: "Oxygen";
+    color:#364459;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+#react-autowhatever-1 ul li:hover {
+    background: #31C5BD;
+    transition: all 0.1s ease;
+}

@@ -1,0 +1,51 @@
+import React, { useState } from "react";
+import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
+import isEmpty from "lodash/isEmpty";
+
+const mapStyles = {
+  width: "50vw",
+  height: "100vh"
+};
+
+const MapContainer = props => {
+  const [markerObj, setMarkerObj] = useState({});
+  const fetchPlaces = (mapProps, map) => {
+    const { google } = mapProps;
+    const service = new google.maps.places.PlacesService(map);
+    var request = {
+      query: props.place,
+      fields: ["name", "geometry"]
+    };
+
+    service.findPlaceFromQuery(request, function(results, status) {
+      setMarkerObj(results[0].geometry.location);
+    });
+  };
+
+  return (
+    <Map
+      onReady={fetchPlaces}
+      google={props.google}
+      zoom={12}
+      style={mapStyles}
+      center={{
+        lat: !isEmpty(markerObj) ? markerObj.lat() : 47.44,
+        lng: !isEmpty(markerObj) ? markerObj.lng() : -122.176
+      }}
+    >
+      <Marker
+        title={"The marker`s title will appear as a tooltip."}
+        name={"SOMA"}
+        position={{
+          lat: !isEmpty(markerObj) ? markerObj.lat() : 47.44,
+          lng: !isEmpty(markerObj) ? markerObj.lng() : -122.176
+        }}
+      />
+    </Map>
+  );
+};
+
+export default GoogleApiWrapper({
+  apiKey: process.env.REACT_APP_GOOGLE_MAPS_KEY,
+  libraries: ["places"]
+})(MapContainer);

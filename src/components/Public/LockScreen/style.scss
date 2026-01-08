@@ -1,0 +1,58 @@
+/*Lock screen*/
+.lock_bg{
+	width: 350px;
+    background: #ecf0f5;
+    max-width: 90%;
+    margin: 0 auto;
+	.user_img{
+		border-radius: 50%;
+		object-fit: cover;
+		width: 70px;
+		height: 70px;
+		border: 1px solid #ccc;
+		margin-left: auto;
+		margin-right: auto;
+		img{
+			width: 70px;
+			height: 70px;
+		}
+	}
+	.form-group{
+		input{
+			margin: 0 auto;
+			width: 100%;
+			&:focus {
+				box-shadow: none;
+			}
+		}
+		button{
+			width: 100%;
+		}
+		a{
+			&:hover{
+				text-decoration:none;
+			}
+		}
+		.password_check__error {
+			border: 2px solid red;
+		}
+	}
+}
+
+
+.lock__unlock--screen {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: -15px;
+	// margin-top: 60px;
+	background: #ecf0f5 !important;
+	z-index: 9000;
+	transition: all .3s ease-in-out;
+	display: flex;
+	align-items: center;
+  }
+  .unlock__screen {
+	transform: translateY(-100%);
+  }

@@ -1,0 +1,200 @@
+body {
+  background: #eceff4;
+  padding: 50px 0;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.logo__form{
+  text-align: center;
+  padding: 50px 0;
+  img{
+    width: 100px;
+    max-height: 100px;
+  }
+}
+.employment_refer {
+  .content_wrap {
+    .list {
+      .main_list {
+        background: #ffffff;
+        border-radius: 3px;
+        padding: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        h2 {
+          color: #227be1;
+        }
+        .title {
+          color: #f28b17;
+          font-weight: bold;
+        }
+        a {
+          &:hover {
+            text-decoration: none;
+            color: #007bff;
+          }
+        }
+      }
+      .sub_list {
+        background: #fff;
+        border-radius: 3px;
+        padding: 15px;
+        margin-bottom: 30px;
+        float: left;
+        width: 100%;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        .text_list {
+          float: left;
+          width: calc(100% - 130px);
+        }
+        .yes-no_list {
+          float: left;
+          width: 130px;
+          text-align: right;
+        }
+        .notActiveShowCompany {
+          background: #eee;
+          color: #777;
+          border-color: #5ea637!important;
+          height: 34px;
+          font-size: 14px !important;
+      }
+
+      .btn.activeShowCompany {
+          color: #fff !important;
+          background-color: #5ea637  !important;
+          border-color: #5ea637  !important;
+          height: 34px;
+          font-size: 14px !important;
+          // color: #fff;
+          // background-color: #1e7e34;
+          // border-color: #1c7430;
+      }
+      
+      .no_activeShowCompany{
+          color: #fff !important;
+          background-color: #999 !important;
+          border-color: #5ea637 !important;
+          height: 34px;
+          font-size: 14px !important;
+      }
+      .no_notActiveShowCompany{
+          background: #eee!important;
+          color: #777!important;
+          border-color: #5ea637!important;
+          height: 34px;
+          font-size: 14px !important;
+      }
+        .leftContent_wrap {
+          float: left;
+          width: calc(100% - 200px);
+        }
+        .rightContent_wrap {
+          float: left;
+          width: 200px;
+          text-align: right;
+          input {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            outline: none;
+            width: 200px;
+          }
+          .select {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 11px;
+            outline: none;
+            width: 200px;
+          }
+          .form_flex {
+            display: flex;
+            .input-group-text {
+              background: none !important;
+              border-radius: 4px 0 0 4px !important;
+            }
+            .picker {
+              .tab__deatils--input {
+                border-radius: 0 4px 4px 0;
+              }
+              input {
+                width: 160px !important;
+              }
+            }
+          }
+        }
+        .sub_list--form {
+          input {
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            outline: none;
+          }
+        }
+        .form-check {
+          a {
+            &:hover {
+              text-decoration: none;
+              color: #007bff;
+            }
+          }
+        }
+        textarea{
+          min-height: 50px;
+          width: 100%;
+          border-radius: 5px;
+          border-color: #ccc;
+          padding: 6px 12px;
+        }
+        .yes__no--toogle__form{
+          justify-content: flex-end;
+        }
+      }
+      .salary_Wrapper {
+        .leftContent_wrap {
+          float: left;
+          width: calc(100% - 300px);
+        }
+        .rightContent_wrap {
+          float: left;
+          width: 300px;
+          text-align: right;
+          .amount {
+            .tab__deatils--input {
+              border-radius: 0;
+              border-radius: 0;
+              border-right: hidden;
+              width: 130px !important;
+            }
+          }
+        }
+        .salary_select {
+          select {
+            border-radius: 0 4px 4px 0 !important;
+            width: 130px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

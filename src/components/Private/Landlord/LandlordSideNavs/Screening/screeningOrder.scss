@@ -1,0 +1,78 @@
+.screening_wrap__order__list {
+  .option-card {
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 25px 0 #bbb;
+    border: 2px solid #fff;
+    &:hover {
+      border: 2px solid #0079c1;
+    }
+    &:active {
+      border: 2px solid #0079c1;
+    }
+    &:focus {
+      border: 2px solid #0079c1;
+    }
+  }
+  .col-md-8 {
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333;
+    }
+  }
+  .col-md-2 {
+      .tick {
+          width: 30px;
+      }
+  }
+  .paid_line {
+    p {
+      font-size: 14px;
+      color: #333;
+      strike {
+        lab {
+          font-size: 18px;
+          color: #333;
+        }
+      }
+      lab {
+        color: rgb(103, 204, 93);
+        font-size: 18px;
+      }
+    }
+  }
+  .report {
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .info {
+    p {
+      font-size: 12px;
+      color: #333;
+      text-align: center;
+    }
+  }
+  .badge {
+    padding: 6px 11px;
+    font-size: 80%;
+    color: #fff !important;
+  }
+}
+
+
+@media screen and (max-width:767px){
+  .screening_wrap__order__list{
+    .col-md-2 {
+      .tick{
+        position: absolute;
+        top: -100px;
+        right: 10px;
+      }
+    }
+  } 
+}

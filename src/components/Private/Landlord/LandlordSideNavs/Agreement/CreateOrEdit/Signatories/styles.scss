@@ -1,0 +1,84 @@
+.signatories-wrapper {
+  .landlord-heading {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px !important;
+    .landlord-dropdown {
+      margin-left: 120px;
+      width: 100%;
+      .ant-select {
+        min-width: 140px;
+      }
+    }
+  }
+  .name {
+    span {
+      margin: 0 10px;
+    }
+  }
+
+  .input-field {
+    margin: 4px 2px;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .btn-delete {
+    margin: 4px 2px;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .btn-add-new {
+    padding: 0.375rem 0.75rem;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .justify-content-between {
+    justify-content: space-between;
+  }
+
+  .button-section {
+    display: flex;
+    // justify-content: space-evenly;
+    // align-items: center;
+    .bottom-btn-group {
+      float: right;
+      margin-top: 10px;
+      .btn-save-preview {
+        padding: 10px 40px;
+        height: 40px;
+        margin-right: 5px;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s ease-in-out;
+        border: 1px solid #007bff;
+        color: #007bff;
+        border-color: #007bff;
+        &:hover {
+          color: #fffffffd;
+          background-color: #f8f6f6;
+          // border: 1px solid #007bff;
+          // border-color: #007bff;
+          color: #007bff;
+          border: 1px solid #007bff;
+        }
+      }
+    }
+  }
+}

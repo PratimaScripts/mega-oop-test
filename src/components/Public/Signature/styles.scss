@@ -1,0 +1,126 @@
+.signature-container {
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+  .vertical-space {
+    margin-top: 20px;
+  }
+  .react-tabs__tab-list {
+    text-align: center;
+  }
+  .type-signature {
+    padding: 20px;
+  }
+  .signature-button {
+    text-align: right;
+  }
+  .signature-upload-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .signature-image-section {
+    text-align: center;
+    .signature-image {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+
+  .signature-canvas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .sigCanvas {
+      background-color: #f4fafc;
+    }
+    .draw-buttons {
+      button {
+        margin: 5px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.agreementView {
+  height: 70vh;
+  width: 50%;
+  border: thick double #32a1ce;
+  margin: auto;
+  overflow: scroll;
+  background-color: #fff;
+}
+
+.inventoryView {
+  height: inherit;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .agreementView {
+    height: 60vh;
+    width: 90%;
+    border: thick double #32a1ce;
+    margin: auto;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 500px) {
+  .agreementView {
+    height: 60vh;
+    width: 98%;
+    border: thick double #32a1ce;
+    margin: auto;
+    overflow: scroll;
+  }
+}
+
+.signature-wrapper {
+  margin-top: 70px;
+  .title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .buttons {
+    text-align: center;
+    .btn__viewdocument {
+      color: #ffffff;
+      background-color: #007bff;
+      border: 1px solid #007bff;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+      transition: all 0.2s;
+      font-size: 14px;
+      padding: 10px 40px;
+      height: 40px;
+      text-align: right;
+      border-radius: 6px;
+      &:hover,
+      &:visited,
+      &:focus {
+        color: #ffffff;
+        background-color: #0062cc;
+        border: 1px solid #0062cc;
+        outline: none;
+      }
+    }
+    .btn__sign__document {
+      padding: 10px 40px;
+      height: 40px;
+      margin-top: 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+      border: 1px solid #007bff;
+      color: #007bff;
+      border-color: #007bff;
+      &:hover {
+        color: #fff;
+        background-color: #0062cc;
+        border: 1px solid #0062cc;
+      }
+    }
+  }
+}

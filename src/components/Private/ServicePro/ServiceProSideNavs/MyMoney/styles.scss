@@ -1,0 +1,293 @@
+.my_money_Servicepro {
+  .table-responsive {
+    padding: 5px;
+    .table {
+      border-collapse: separate;
+      border-spacing: 0 1em;
+      .user-img {
+        width: 50px;
+        height: 50px;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .user-info {
+        .user-name {
+          color: #333;
+          margin-bottom: 0;
+        }
+        .ant-card-meta-detail > div:not(:last-child) {
+          margin: 0;
+        }
+      }
+      .user-email {
+        color: #888;
+      }
+      .user-role {
+        .ant-tag {
+          cursor: pointer;
+        }
+      }
+      .msg-user {
+        margin: 0 10px 0 0;
+        &:hover {
+          color: #007bff;
+        }
+      }
+      .del-user {
+        margin: 0 0 0 10px;
+        &:hover {
+          color: #ff0000;
+        }
+      }
+    }
+    .thead-dark {
+      border: 1px solid #ccc;
+      th {
+        background: #ddf0ff !important;
+        color: #000 !important;
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+    }
+    tr {
+      background: #fff;
+      box-shadow: 0 0 10px #d4d4d4;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.01);
+        transition: transform 0.2s;
+      }
+      td {
+        padding: 10px 20px;
+        vertical-align: middle;
+        color: #333 !important;
+        white-space: nowrap;
+      }
+    }
+    .thead-dark {
+      tr:first-child {
+        background: #fff;
+        box-shadow: 0 0 10px #d4d4d4;
+        &:hover {
+          cursor: auto;
+          transform: scale(1);
+          transition: none;
+        }
+      }
+    }
+    .border__landlord {
+      border-left: 4px solid rgb(45, 183, 245);
+      border-radius: 5px;
+    }
+    .border__servicepro {
+      border-left: 4px solid rgb(135, 208, 104);
+      border-radius: 5px;
+    }
+    .border__renter {
+      border-left: 4px solid rgb(255, 85, 0);
+      border-radius: 5px;
+    }
+    .border__processed {
+      border-left: 4px solid #66cc5c;
+      border-radius: 5px;
+    }
+  }
+}
+
+.wrapper_money {
+  .row {
+    align-items: center;
+  }
+  .detailed_info {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        width: 30%;
+        padding: 10px;
+        display: inline-block;
+        background: #2188ff;
+        border-radius: 5px;
+        color: #fff;
+        margin: 10px;
+        .pounds_icon {
+          font-size: 20px;
+          padding: 10px;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          background: #fff;
+          color: #000;
+          height: 50px;
+          width: 50px;
+          vertical-align: middle;
+          text-align: center;
+          margin: 0 20px;
+        }
+        .details {
+          padding: 5px;
+          h4 {
+            margin: 0;
+            color: #fff;
+            font-weight: 500;
+          }
+          .status {
+            font-size: 12px;
+            font-weight: 500;
+          }
+          .amount {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+
+  .btns__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    .property_width {
+      margin: 10px;
+    }
+    .btn {
+      margin: 10px;
+    }
+    .btn_csv {
+      background: #f28e1e;
+      color: #fff;
+    }
+    .btn_in {
+      background: #4bb821;
+      color: #fff;
+    }
+    .btn_out {
+      background: #e05453;
+      color: #fff;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .detailed_info {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.modal_mymoney {
+  .input_steps {
+    width: 100%;
+    margin-bottom: 20px;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+    .ant-select-selection--single {
+      height: 40px;
+      padding: 5px 0;
+      font-size: 16px;
+    }
+  }
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  .thankyou_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 200px;
+    p {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    h1 {
+      text-align: center;
+      i {
+        border-radius: 50%;
+        background: #007bff;
+        color: #fff;
+        padding: 8px;
+        font-size: 20px;
+      }
+    }
+  }
+  label {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .top_label {
+    font-size: 15px;
+    width: 100%;
+  }
+  .btn_wrapper {
+    text-align: right;
+  }
+  .wrapper_details_review {
+    p {
+      box-shadow: 0 0 10px #d4d4d4;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      width: fit-content;
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.withdrawBtn {
+  background-color: transparent;
+  border: 2px solid #037afb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.earnings-container {
+  .total-earnings {
+    .earning-badge {
+      background: #2188ff;
+      border-radius: 5px;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .icon {
+        font-size: 50px;
+        margin-right: 20px;
+      }
+      .amount {
+        margin: 0;
+        color: #fff;
+      }
+      span {
+        color: #fff;
+        font-size: 15px;
+        margin: 0 5px;
+      }
+    }
+    .payment-type {
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      float: right;
+      background: #2188ff;
+      border-radius: 5px;
+      padding: 10px;
+			.method-name {
+				text-transform: capitalize;
+			}
+			span {
+				color: #fff;
+			}
+    }
+  }
+}

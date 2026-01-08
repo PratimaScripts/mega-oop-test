@@ -1,0 +1,197 @@
+// Dashboard Styles
+
+.home_ {
+  height: 100%;
+  background-color: #ecf0f5;
+  color: #333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  .welcome {
+    // h2 {
+    //   font-size: 24px;
+    //   margin: 0 auto 15px;
+    //   line-height: 28px;
+    //   color: #555;
+    //   font-weight: 300;
+    //   strong {
+    //     font-weight: 700;
+    //   }
+    // }
+    // p {
+    //   color: #000;
+    //   font-size: 16px;
+    //   line-height: 22px;
+    //   font-weight: 300;
+    //   margin-bottom: 30px;
+    // }
+
+    .col-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+    .leftBox {
+      text-align: start;
+    }
+
+    .avatar-md {
+      height: 4.5rem;
+      width: 4.5rem;
+    }
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: 0.47rem 0.75rem;
+      font-size: 0.8125rem;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .btn__update--profile {
+      padding: 9px 25px;
+      height: 40px;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 14px;
+      transition: all 0.2s ease-in-out;
+      background: #f28e1d;
+      border: 1px solid #f28e1d;
+      &:hover {
+        background: #de8017;
+        border: 1px solid #de8017;
+        color: #fff;
+      }
+    }
+  }
+  .card {
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+    .info {
+      flex: 1 1;
+      padding: 0 10px;
+      align-self: center;
+      h4 {
+        font-size: 16px;
+        margin: 0;
+        color: #555;
+        font-weight: 400;
+        color: #000;
+      }
+      p {
+        font-size: 21px;
+        font-weight: 500;
+        margin: 0;
+        color: #000;
+      }
+    }
+    .widget-small {
+      display: flex;
+      border-radius: 4px;
+      color: #fff;
+      .icon {
+        display: flex;
+        min-width: 85px;
+        min-height: 83px;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5a449;
+        border-radius: 4px 0 0 4px;
+        font-size: 43px;
+      }
+    }
+  }
+  .box {
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    h3.box-title {
+      display: inline-block;
+      font-size: 18px;
+      margin: 0;
+      line-height: 1;
+      font-weight: 500;
+    }
+    .table_head {
+      min-width: 100px;
+      width: 100%;
+    }
+  }
+  .users-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-wrap: wrap;
+    .widget-small {
+      display: flex;
+      border-radius: 4px;
+      color: #fff;
+      .icon {
+        display: flex;
+        min-width: 85px;
+        min-height: 83px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px 0 0 4px;
+        font-size: 43px;
+        color: #f28e1d;
+        margin: 0 auto;
+      }
+    }
+    li {
+      width: 25%;
+      float: left;
+      padding: 10px;
+      text-align: center;
+      display: grid;
+      img {
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+  .users-list-name {
+    font-weight: 600;
+    color: #444;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .users-list-date {
+    color: #999;
+    font-size: 12px;
+    display: block;
+  }
+  .no_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .mdi {
+      color: #159dd7;
+      font-size: 90px;
+      line-height: 0.7;
+    }
+  }
+}

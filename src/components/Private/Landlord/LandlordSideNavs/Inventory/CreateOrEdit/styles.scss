@@ -1,0 +1,77 @@
+.rooms__wrapper {
+  .delete-button {
+    outline: none;
+    border: none;
+    font-size: 22px;
+    color: red;
+  }
+
+  .react-tabs {
+    .react-tabs__tab-list {
+      width: 100%;
+      background: #bbb;
+      border-radius: 5px;
+      .react-tabs__tab {
+        border: 0;
+        color: #fff;
+        padding: 8px 30px 8px 30px;
+        &:after {
+          position: absolute;
+          background: #bbb;
+          content: "";
+          height: 28px;
+          width: 28px;
+          top: 4px;
+          right: -15px;
+          left: auto;
+          border-top: 1px solid #fff;
+          border-right: 1px solid #fff;
+          z-index: 100;
+          transform: rotate(45deg);
+        }
+      }
+      .react-tabs__tab--selected {
+        background: #2089ff !important;
+        border-color: #fff;
+        color: #fff;
+        border-radius: 0;
+        &:after {
+          position: absolute;
+          background: #bbb;
+          content: "";
+          height: 28px;
+          width: 28px;
+          top: 4px;
+          right: -15px;
+          left: auto;
+          border-top: 1px solid #fff;
+          border-right: 1px solid #fff;
+          z-index: 100;
+          transform: rotate(45deg);
+          background: #2189ff;
+        }
+      }
+      .react-tabs__tab--selected:first-child {
+        background: #2089ff !important;
+        border-color: #fff;
+        color: #fff;
+        border-radius: 5px;
+        &:after {
+          position: absolute;
+          background: #bbb;
+          content: "";
+          height: 28px;
+          width: 28px;
+          top: 4px;
+          right: -15px;
+          left: auto;
+          border-top: 1px solid #fff;
+          border-right: 1px solid #fff;
+          z-index: 100;
+          transform: rotate(45deg);
+          background: #2189ff;
+        }
+      }
+    }
+  }
+}

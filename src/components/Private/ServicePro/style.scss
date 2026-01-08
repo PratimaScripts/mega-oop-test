@@ -1,0 +1,61 @@
+.container {
+  max-width: 1340px !important;
+}
+// header open
+.main-header {
+  padding: 0px 15px !important;
+  min-height: 54px;
+  .ham_menu {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .navbar-brand {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    .nav-item {
+      a {
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+    }
+  }
+  .badge-warning {
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 4px 7px;
+  }
+  .profile__thumb {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 7px;
+  }
+  .profile-text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    span {
+      font-weight: 600;
+    }
+  }
+  .site_search.form-inline input {
+    height: 38px;
+    width: calc(100% - 42px);
+    display: inline-block;
+    line-height: 38px;
+  }
+  .header-search-options {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+// header close

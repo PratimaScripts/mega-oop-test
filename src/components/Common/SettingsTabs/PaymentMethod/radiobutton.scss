@@ -1,0 +1,20 @@
+.payment_radio-container {
+  .ant-radio-wrapper {
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    // span:not(.ant-radio) {
+    //   width: 100%;
+    //   .radio-button {
+    //     display: flex;
+    //     width: 100%;
+    //     justify-content: space-between;
+    //   }
+    // }
+  }
+  .active {
+    border: 1px solid #40a9ff;
+  }
+}

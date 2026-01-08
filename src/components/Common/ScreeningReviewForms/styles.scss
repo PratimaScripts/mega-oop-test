@@ -1,0 +1,12 @@
+.screening__card .cover{
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute !important;
+        filter: blur(1px);
+        width: 100% !important;
+        height: 100% !important;
+        background: #ffffff4f !important;
+        z-index: 99;
+    }
+}

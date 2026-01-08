@@ -1,0 +1,43 @@
+.contact-form {
+  .btn-contact {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: all 0.2s;
+    font-size: 14px;
+    padding: 10px 20px;
+    height: 40px;
+    text-align: right;
+    border-radius: 6px;
+  }
+
+  .input-field {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .react-tel-input > input[type="tel"] {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    padding-left: 30px;
+    height: 40px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    line-height: 20px !important;
+    margin: 10px 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .contact_page--label {
+    margin-bottom: 3px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

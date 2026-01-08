@@ -1,0 +1,23 @@
+$rhythm: 15px;
+$textBox: 40px;
+
+$invoiceMaxWidth: 1000px;
+$borderRadius: 4px;
+
+$tableBorderColor: #ccc;
+$boxBgColor: #eee;
+$bgColor: white;
+$addColor: darkgreen;
+$removeColor: darkred;
+$marginTop: 10px;
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency {
+  text-align: right;
+  word-break: break-word;
+}

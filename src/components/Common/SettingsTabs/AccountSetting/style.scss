@@ -1,0 +1,66 @@
+.account_setting {
+  .info_wrap {
+    .help-text {
+      font-weight: 300;
+      font-size: 13px;
+    }
+    .input-group {
+      position: relative;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      width: 100%;
+    }
+  }
+  .account_set {
+    a {
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+  .btns__success {
+    color: #000;
+    &:hover {
+      color: #000;
+    }
+  }
+  .btns__warning {
+    &:hover {
+      color: #fff !important;
+      background-color: #f28e1d !important;
+      border-color: #f28e1d !important;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+      transition: all 0.2s;
+    }
+    color: #f28e1d !important;
+    background-color: #fff !important;
+    border-color: #f28e1d !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    transition: all 0.2s;
+  }
+  .btns__danger {
+    color: #000;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+// desktop responsive open
+.roc__desktop--responsive {
+  .account_setting {
+    .info_wrap {
+      .col-sm-4 {
+        flex: none;
+        width: 100%;
+      }
+      .col-md-4 {
+        flex: none;
+        max-width: 100%;
+      }
+    }
+  }
+}
+// desktop responsive close

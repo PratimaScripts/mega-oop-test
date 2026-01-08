@@ -1,0 +1,191 @@
+.application__wrapper {
+  .application__wrap {
+    .declaration__wrap {
+      position: relative;
+      border-radius: 5px;
+      background: #fff;
+      margin-bottom: 20px;
+      width: 100%;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+      padding: 15px;
+      .inputs__wrapper {
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          li {
+            width: 35%;
+            display: inline-block;
+            padding: 10px;
+          }
+          li:last-child {
+            width: 30%;
+            display: inline-block;
+            padding: 10px;
+          }
+        }
+      }
+      .duration_input {
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          li {
+            width: 25%;
+            display: inline-block;
+            padding: 10px;
+          }
+        }
+      }
+      textarea {
+        min-height: 75px;
+        font-size: 14px;
+      }
+      .terms_conditions_checkbox {
+        .d-flex {
+          input {
+            margin: 3px;
+          }
+        }
+      }
+      .btn_card {
+        text-align: center;
+        button {
+          width: 240px;
+        }
+        .badge {
+          background: #909da5;
+          padding: 6px 12px;
+          margin: 10px;
+        }
+      }
+    }
+    .progress__wrapper {
+      position: relative;
+      border-radius: 5px;
+      background: #fff;
+      margin-bottom: 20px;
+      width: 100%;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.08);
+      padding: 15px;
+      height: 100%;
+      .progress_report {
+        position: relative;
+        width: 100%;
+        padding: 30px 0;
+        &:before {
+          content: "";
+          background: #cbcac8;
+          height: 100%;
+          width: 2px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          li:first-child {
+            text-align: right;
+            position: relative;
+            padding-left: 0;
+            padding: 0 20px;
+            &:before {
+              content: "";
+              position: absolute;
+              padding: 10px;
+              top: 40%;
+              background: #cbcac8;
+              border-radius: 50%;
+              right: -10px;
+              transform: translateY(-50%);
+            }
+          }
+          li {
+            width: 50%;
+            display: inline-block;
+            padding: 0 20px;
+            color: #777;
+            font-size: 16px;
+            padding-right: 0;
+          }
+        }
+      }
+      .last__progress_report {
+        &:before {
+          content: "";
+          background: #cbcac8;
+          height: 10%;
+          width: 2px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+    .btn-outline-warning {
+      color: #f28e1d !important;
+      border-color: #f28e1d !important;
+      &:hover {
+        color: #fff !important;
+        background-color: #f28e1d !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .roc__desktop--responsive {
+    .application__wrap {
+      .col-lg-8{
+        max-width: 100%;
+        flex: none;
+      }
+      .col-lg-4{
+        max-width: 100%;
+        flex: none;
+      }
+      .declaration__wrap{
+        .inputs__wrapper{
+          ul{
+            li{
+              width: 100%;
+            }
+            li:last-child{
+              width: 100%;
+            }
+          }
+        }
+        .duration_input{
+          ul{
+            li{
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:767px){
+  .application__wrap {
+    .declaration__wrap{
+      h3{
+        font-size: 15px;
+      }
+      .duration_input{
+        ul{
+          li{
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+

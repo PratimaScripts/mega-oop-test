@@ -1,0 +1,19 @@
+
+.service-order-action-button {
+  margin: 2px;
+}
+.service-order-action-button.green {
+  background-color: #28a745 !important;
+  border-color: #28a745;
+}
+
+.service-order-action-button.red {
+  background-color: red !important;
+  border-color: red;
+}
+
+.ant-table {
+  .ant-table-content {
+    min-width: 900px;
+  }
+}

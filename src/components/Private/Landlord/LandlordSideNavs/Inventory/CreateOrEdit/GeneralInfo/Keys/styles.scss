@@ -1,0 +1,15 @@
+.keys-row__wrapper {
+  margin: 5px 10px;
+  align-items: flex-start;
+}
+.inline-center {
+  display: inline-flex;
+  align-items: center;
+}
+.add-row-btn {
+  background-color: grey;
+  color: #fff;
+  &:hover {
+    border: 1px solid grey;
+  }
+}

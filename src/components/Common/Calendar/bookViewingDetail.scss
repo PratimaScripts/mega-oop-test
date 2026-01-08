@@ -1,0 +1,111 @@
+.card__middle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .dot {
+      height: 15px;
+      width: 15px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .tag {
+      height: 25px;
+      width: 150px;
+      font-size: 14px;
+      border-radius: 3px;
+      padding: 3px 20px;
+    }
+    .details__icons {
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      vertical-align: unset;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #999;
+      i {
+        &::before {
+          font-weight: 600;
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+    .down__marg {
+      margin-top: 2px;
+    }
+    .active {
+      background: #f28e1d !important;
+    }
+  }
+  .active__tab {
+    color: #f28e1d !important;
+  }
+
+  .card {
+    padding: 0;
+    box-shadow: 0 1px 5px #e4e4e4;
+  }
+
+  .custom-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 60px;
+    color: #3891f8;
+    box-shadow: 0px 0px 2px #3891f8;
+    padding: 0.2em 0.2em;
+  }
+  .bottom-btn-group1 {
+    float: left;
+    margin-top: 10px;
+    .btn {
+      padding: 5px 10px;
+      // margin: 10px;
+      color: #fff;
+      // width: 210px;
+      font-size: 12px;
+      height: 40px;
+    }
+    .btn-accept {
+      background-color: #0062cc;
+      border-color: #0062cc;
+      color: #fff;
+      margin-left: 10px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: #0069d9;
+        border-color: #0069d9;
+        border: 1px solid #0069d9;
+        color: #fff;
+      }
+    }
+    .btn-reschedule {
+      color: #007bff;
+      margin-left: 10px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: #007bff;
+        border-color: #007bff;
+        border: 1px solid #007bff;
+        color: #fff;
+      }
+    }
+    .btn-cancel {
+      background-color: #f28e1d;
+      border-color: #f28e1d;
+      color: #fff;
+      margin-left: 10px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: #de8017;
+        border-color: #de8017;
+        border: 1px solid #de8017;
+        color: #fff;
+      }
+    }
+  }

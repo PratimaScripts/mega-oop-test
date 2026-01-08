@@ -1,0 +1,196 @@
+// .contact-card {
+//   padding: 5px;
+//   border-radius: 5px;
+//   box-shadow: 0 4px 25px 0 #bbb;
+//   background: #fff;
+//   margin: 20px 0;
+//   .user-img {
+//     width: 50px;
+//     height: 50px;
+//     margin: 0 auto 5px;
+//     img {
+//       width: 100%;
+//       border-radius: 50%;
+//     }
+//   }
+//   .user-info {
+//     text-align: center;
+//     .user-name {
+//       font-size: 12px;
+//       color: #333;
+//       margin-bottom: 0;
+//     }
+//     .user-email {
+//       font-size: 12px;
+//       color: #888;
+//     }
+//     .ant-card-meta-detail > div:not(:last-child) {
+//       margin: 0;
+//     }
+//   }
+//   .user-activity {
+//     width: 100%;
+//     ul {
+//       list-style: none;
+//       padding: 0;
+//       margin: 0;
+//       li {
+//         display: inline-block;
+//         width: 50%;
+//         padding: 5px;
+//         cursor: pointer;
+//         text-align: center;
+//         font-size: 12px;
+//       }
+//       .msg-user {
+//         &:hover {
+//           color: #007bff;
+//         }
+//       }
+//       .del-user {
+//         &:hover {
+//           color: #ff0000;
+//         }
+//       }
+//     }
+//   }
+//   .card_footer {
+//     border-top: 1px solid #ccc;
+//     width: 100%;
+//     ul {
+//       list-style: none;
+//       padding: 0;
+//       margin: 0;
+//       li {
+//         display: inline-block;
+//         width: 50%;
+//         padding: 5px;
+//         font-size: 12px;
+//         .user-role {
+//           text-align: left;
+//           .ant-tag {
+//             cursor: pointer;
+//           }
+//         }
+//         .view-info {
+//           text-align: right;
+//           span {
+//             color: #007bff;
+//             cursor: pointer;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .ant-btn {
+//   padding: 0 15px !important;
+// }
+
+.table-responsive {
+  padding: 5px;
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    .user-img {
+      width: 50px;
+      height: 50px;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    .user-info {
+      .user-name {
+        color: #333;
+        margin-bottom: 0;
+      }
+      .ant-card-meta-detail > div:not(:last-child) {
+        margin: 0;
+      }
+    }
+    .user-email {
+      color: #888;
+    }
+    .user-role {
+      .ant-tag {
+        cursor: pointer;
+      }
+    }
+    .msg-user {
+      margin: 0 10px 0 0;
+      &:hover {
+        color: #007bff;
+      }
+    }
+    .del-user {
+      margin: 0 0 0 10px;
+      &:hover {
+        color: #ff0000;
+      }
+    }
+  }
+  .thead-dark {
+    border: 1px solid #ccc;
+    th {
+      background: #ddf0ff !important;
+      color: #000 !important;
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  }
+  tr {
+    background: #fff;
+    box-shadow: 0 0 10px #d4d4d4;      
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.01);
+      transition: transform 0.2s;
+    }
+    td {
+      padding: 10px 20px;
+      vertical-align: middle;
+      color: #333 !important;
+      white-space: nowrap;
+    }
+  }
+  .thead-dark {
+    tr:first-child {
+      background: #fff;
+      box-shadow: 0 0 10px #d4d4d4;
+      &:hover {
+        cursor: auto;
+        transform: scale(1);
+        transition: none;
+      }
+    }
+  }
+  .border__landlord {
+    border-left: 4px solid rgb(45, 183, 245);
+    border-radius: 5px;
+  }
+  .border__servicepro {
+    border-left: 4px solid rgb(135, 208, 104);
+    border-radius: 5px;
+  }
+  .border__renter {
+    border-left: 4px solid rgb(255, 85, 0);
+    border-radius: 5px;
+  }
+  .border__processed {
+    border-left: 4px solid #66cc5c;
+    border-radius: 5px;
+  }
+}
+.head_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  .btn_addcontact {
+    background: #f28e1d;
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

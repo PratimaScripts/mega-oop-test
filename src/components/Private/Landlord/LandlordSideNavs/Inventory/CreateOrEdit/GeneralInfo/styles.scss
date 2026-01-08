@@ -1,0 +1,22 @@
+.general-info__container {
+  .section-title {
+    border-bottom: 1px solid #fc9919;
+    margin: 20px 0 10px 0;
+  }
+  .basic-info {
+    display: flex;
+    // justify-content: space-between;
+    // align-items: flex-start;
+    .basic-item {
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .save-section {
+    margin: 20px 0;
+    button {
+      margin-right: 10px;
+    }
+  }
+}

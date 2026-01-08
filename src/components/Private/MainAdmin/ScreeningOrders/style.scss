@@ -1,0 +1,16 @@
+.highlight__coral {
+    background: #3089FF;
+    color: #fff;
+    &:hover {
+        color: #000;
+    }
+}
+.id__wrap{
+    display: flex;
+    p{
+        width: 100px;
+    }
+    a{
+        width: 100px;
+    }
+}

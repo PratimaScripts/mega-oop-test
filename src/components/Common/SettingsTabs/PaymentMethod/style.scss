@@ -1,0 +1,274 @@
+.card_wrap {
+  input {
+    &:focus {
+      border-color: #f28e1d;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  label {
+    font-weight: 500;
+  }
+  #field-wrapper {
+    height: 44px;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    padding: 9px 12px 10px;
+    border-radius: 4px;
+  }
+  .text-toc {
+    color: #777;
+  }
+  .card__select {
+    height: 44px;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    padding: 9px 12px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .card__label {
+    display: block;
+  }
+  .card__label + div {
+    width: 100%;
+  }
+  .header {
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .card_main {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 0px 0 0;
+    .d-flex {
+      position: absolute;
+      right: 0;
+      top: 0;
+      a {
+        border-radius: 50%;
+        margin: 5px;
+      }
+    }
+    .form-row {
+      margin: 0 10px;
+    }
+    label {
+      font-weight: 500;
+    }
+  }
+  .btns {
+    a {
+      padding: 9px 15px 10px;
+    }
+    button {
+      padding: 9px 15px 10px;
+    }
+  }
+}
+
+.full__width__card_input {
+  width: 100vw !important;
+  height: 42px;
+  margin-top: 4px;
+}
+
+.error__class {
+  color: red;
+}
+
+.btn-warning {
+  // color: #fff !important;
+  // font-size: 14px !important;
+}
+.label__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card__bg {
+  background: #eee;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  padding-top: 20px;
+  border: 1px solid #ddd;
+  .card__edit--btn {
+    color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .card__save--btn {
+    color: #fff !important;
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 10px 10px 0 7px;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+
+// desktop responsive open
+.roc__desktop--responsive {
+  .card_wrap {
+    .col-sm-6 {
+      flex: none;
+    }
+    .col-md-6 {
+      flex: none;
+    }
+    .col-md-4 {
+      flex: none;
+    }
+  }
+}
+// desktop responsive close
+
+.servicepro__stripe--center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radioBx {
+  padding: 20px 50px;
+  border: #eae7e7 2px solid;
+  border-radius: 5px;
+  margin: 10px 0px 0px;
+  font-size: 15px;
+  font-family: "Arial";
+  background: url("../CommonInfo/image/unchecked.png") no-repeat;
+  background-position: 20px 50%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.radioBx.active {
+  border: #007bff 2px solid;
+  background: url("../CommonInfo/image/checked.png") no-repeat;
+  background-position: 20px 50%;
+}
+
+.radioBx img {
+  height: 13px;
+  margin-top: 5px;
+}
+
+.card {
+  width: 100% !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bank-intro {
+  font-size: 14px !important;
+  line-height: 18px;
+}
+
+.credit-card-input {
+  margin-top: 9px;
+}
+
+.complete {
+  border: 2px solid #28a745;
+}
+
+.tick {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+.tab--list--details .offers--taskList .offers-list .its {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.its {
+  cursor: pointer;
+  height: 92px;
+}
+
+.connectedTickDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.connectedTick {
+  font-size: 25px;
+  color: #4b953a;
+}
+
+.connectEditTick {
+  font-size: 20px;
+  color: #037afb;
+  border-radius: 4px;
+  padding: 20% !important;
+  box-shadow: 0 1px 3px 0 #292424;
+  cursor: pointer;
+}
+
+.wiseImg {
+  height: auto;
+  width: 15%;
+  margin-top: 0;
+}
+
+.connectedTagsIncomplete {
+  font-size: 15px;
+  color: #a52e4e;
+  background-color: #fae2dd;
+  border: 1px solid #fae2dd;
+  border-radius: 4px;
+  padding: 1%;
+  font-weight: bold;
+  cursor: default;
+}
+
+.connectedTagsComplete {
+  font-size: 15px;
+  color: #116447;
+  background-color: #cbf4c9;
+  border: 1px solid #cbf4c9;
+  border-radius: 4px;
+  padding: 1%;
+  font-weight: bold;
+  cursor: default;
+}
+
+.stripeTitle {
+  font-size: 25px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

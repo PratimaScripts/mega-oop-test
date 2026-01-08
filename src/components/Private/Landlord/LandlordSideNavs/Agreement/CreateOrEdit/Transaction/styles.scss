@@ -1,0 +1,51 @@
+.transaction-wrapper {
+  .title {
+    font-weight: 450;
+    font-size: 16px;
+  }
+  .input-field {
+    margin: 4px 2px;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+  .desc-field {
+    margin: 4px 2px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    width: 100%;
+  }
+  .amount-section {
+    display: flex;
+    align-items: center;
+    .mr-50 {
+      margin-right: 50px;
+    }
+  }
+  .radioBtn {
+    padding: 10px 24px;
+    border: #eae7e7 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Arial";
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .transaction-wrapper .amount-section {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
+.transaction-title-wrapper {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}

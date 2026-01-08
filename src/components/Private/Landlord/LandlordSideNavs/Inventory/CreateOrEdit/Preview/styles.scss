@@ -1,0 +1,63 @@
+.inventory-preview__container {
+  padding: 20px 20%;
+  .inventory-title {
+    margin: auto;
+    margin-top: 10px;
+  }
+  .data-table {
+    margin: 10px 0;
+    overflow: auto;
+  }
+  .room-row {
+    margin: 10px 0;
+
+    .room-title__wrapper {
+      display: flex;
+      align-items: center;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      .info-paragraph {
+        margin-left: 20px;
+      }
+    }
+  }
+  .comment-section {
+    margin-top: 10px;
+    p {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+  .gallery-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .gallery-image {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .signature-item {
+    div {
+      display: flex;
+      p {
+        margin: 0 5px;
+      }
+    }
+    strong {
+      border-bottom: 1px solid;
+    }
+  }
+}
